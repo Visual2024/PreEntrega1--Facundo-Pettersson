@@ -1,42 +1,58 @@
 import React, { useState } from 'react'
 import { Card } from '../CartWidget/Card';
-import {logo} from '../../assets/img/logo/logo.png'
+import  Logo  from '../../assets/logo.png';
 
 export const Navbar = () => {
-    const [showCategoria, setCategoria] = useState(false)
+    const [showcategori, setShowCategori] = useState(false)
+
+
 
     return (
         <>
-            <header className='container-header'>
-                <div className='container-general'>
-                    <div className='container-logo'>
-                        <img src={logo} alt="Logo del E-commerce" id='img-logo' />
-                    </div>
-                    <nav className='navegacion'>
-                        <ul className='ul-container'>
-                            <li>
-                                <a href="">Inicio</a>
-                            </li>
-                            <li>
-                                <button onClick={() => setCategoria(!showCategoria)}>Categorias</button>
-                                {showCategoria && (
-                                <ul>
-                                    <li>Categoria 1</li>
-                                    <li>Categoria 1</li>
-                                    <li>Categoria 1</li>
-                                </ul>)}
-                            </li>
-                            <li>
-                                <a href="">Servicios</a>
-                            </li>
-                            <li id='li-carrito'>
-                                <Card className='card' />
-                            </li>
-                        </ul>
-                    </nav>
+              <nav className='bg-teal-500 py-4'>
+            <div className='container mx-auto flex flex-row justify-between items-center min-w-11'>
+                <div className='mr-20 w-[5.2%] '>
+                    <img src={Logo} alt="Logo" className='w-[100%] ml-4' />
                 </div>
-
-            </header>
+                <div className='flex items-center justify-center flex-grow'>
+                    <img src="" alt="" />
+                    <form action="" className='bg-white p-2 h-[20%] w-[90%]'>
+                        <input type="text" name="" id="" className='w-[100%] h-8 rounded-lg focus:border-indigo-500  outline-none' />
+                    </form>
+                </div>
+                <div className=''>
+                    <ul className=''>
+                        <button onClick={() => setShowCategori(!showcategori)} className='text-lg'>Categorias</button>
+                        {showcategori && (
+                            <ul className='absolute  bg-teal-800 text-white w-[7%] flex flex-col items-start outline-none transition-all'>
+                                <li className=''>
+                                    <button className='hover:underline w-full text-lg hover:animate-pulse text-white'>Categoria</button>
+                                </li>
+                                <li className=''>
+                                    <button className='hover:underline text-lg hover:animate-pulse text-white'>Categoria</button>
+                                </li>
+                                <li className=''>
+                                    <button className='hover:underline text-lg hover:animate-pulse text-white'>Categoria</button>
+                                </li>
+                            </ul>
+                        )}
+                    </ul>
+                </div>
+                <div className='mx-5'>
+                    <ul className='flex'>
+                        <li className='p-2 mr-2 '>
+                            <a href="" className='text-lg'>Productos</a>
+                        </li>
+                        <li className='p-2 mr-2 '>
+                            <a href="" className='text-lg'>Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+                <div className='flex  ml-5'>
+                    <Card />
+                </div>
+            </div>
+        </nav>
 
         </>
     )

@@ -1,10 +1,9 @@
 import React, { useState } from 'react'
-import './style.css';
-import logo from '../../assets/img/logo/logo.png';
 import { Card } from '../CartWidget/Card';
+import {logo} from '../../assets/img/logo/logo.png'
 
 export const Navbar = () => {
-
+    const [showCategoria, setCategoria] = useState(false)
 
     return (
         <>
@@ -19,7 +18,13 @@ export const Navbar = () => {
                                 <a href="">Inicio</a>
                             </li>
                             <li>
-                                <a href="">Shop</a>
+                                <button onClick={() => setCategoria(!showCategoria)}>Categorias</button>
+                                {showCategoria && (
+                                <ul>
+                                    <li>Categoria 1</li>
+                                    <li>Categoria 1</li>
+                                    <li>Categoria 1</li>
+                                </ul>)}
                             </li>
                             <li>
                                 <a href="">Servicios</a>

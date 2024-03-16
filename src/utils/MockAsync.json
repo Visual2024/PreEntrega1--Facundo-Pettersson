@@ -1,0 +1,163 @@
+  {
+    "categorias": [
+    { "id": 1, "nombre": "Zapatillas" },
+    { "id": 2, "nombre": "Camisetas" },
+    { "id": 3, "nombre": "Pantalones" }
+  ],
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Nike Air Max Alpha Trainer 5",
+        "descripcion": "Zapatillas Hombre",
+        "precio": 67,
+        "stock": 100,
+        "imagen": "https://resize.sprintercdn.com/f/512x512/products/0331932/nike-air-max-alpha-trainer-5_0331932_02_4_2260736173.jpg?w=512&q=75",
+        "isOnDiscount": false,
+        "categoria": 1
+      },
+      {
+        "id": 2,
+        "nombre": "Nike Court Vision Low Trk3",
+        "descripcion": "Zapatillas Hombre",
+        "precio": 63,
+        "stock": 75,
+        "imagen": "https://resize.sprintercdn.com/f/512x512/products/0375441/nike-court-vision-lo-trk3_0375441_02_4_593860834.jpg?w=512&q=75",
+        "isOnDiscount": true,
+        "categoria": 1
+      },
+      {
+        "id": 3,
+        "nombre": "Reebok Court Advance",
+        "descripcion": "Zapatillas Hombre",
+        "precio": 50,
+        "stock": 120,
+        "imagen": "https://resize.sprintercdn.com/f/512x512/products/0378317/reebok-court-advance_0378317_02_4_4273644309.jpg?w=512&q=75",
+        "isOnDiscount": true,
+        "categoria": 1
+      },
+      {
+        "id": 4,
+        "nombre": "Nike Court Vision Low",
+        "descripcion": "Zapatillas Hombre",
+        "precio": 69,
+        "stock": 200,
+        "imagen": "https://resize.sprintercdn.com/f/512x512/products/0314113/nike-court-vision-low_0314113_02_4_403730762.jpg?w=512&q=75",
+        "isOnDiscount":false,
+        "categoria":1
+      },
+      {
+        "id": 5,
+        "nombre": "Nike Court Vision",
+        "descripcion": "Zapatillas Hombre",
+        "precio": 63,
+        "stock": 50,
+        "imagen": "https://resize.sprintercdn.com/f/512x512/products/0343493/nike-court-vision_0343493_02_4_3813894129.jpg?w=512&q=75",
+        "isOnDiscount": true,
+        "categoria": 1
+
+      },
+      
+      {
+        "id": 6,
+        "nombre": "Camiseta Running adidas",
+        "descripcion": "Camiseta Running Hombre",
+        "precio": 12,
+        "stock": 100,
+        "imagen": "https://resize.sprintercdn.com/f/512x512/products/0330708/camiseta-running-adidas_0330708_02_4_3319633280.jpg?w=512&q=75",
+        "isOnDiscount": false,
+        "categoria": 2
+      },
+      {
+        "id": 7,
+        "nombre": "Puma Favorite Velocity",
+        "descripcion": "Camiseta Running Hombre",
+        "precio": 24,
+        "stock": 75,
+        "imagen": "https://resize.sprintercdn.com/f/512x512/products/0374356/puma-favorite-velocity_0374356_02_4_1723073768.jpg?w=512&q=75",
+        "isOnDiscount": true,
+        "categoria": 2
+      },
+      {
+        "id": 8,
+        "nombre": "Camiseta Under Armour",
+        "descripcion": "Camiseta Hombre",
+        "precio": 25,
+        "stock": 120,
+        "imagen": "https://resize.sprintercdn.com/f/512x512/products/0314880/t-shirt-under-armour_0314880_02_4_1283319819.jpg?w=512&q=75",
+        "isOnDiscount": true,
+        "categoria": 2
+      },
+      {
+        "id": 9,
+        "nombre": "Camiseta Interior Boriken",
+        "descripcion": "Camiseta Térmica Mujer",
+        "precio": 5,
+        "stock": 200,
+        "imagen": "https://resize.sprintercdn.com/f/512x512/products/0320448/camisola-interior-boriken_0320448_02_4_2738935716.jpg?w=512&q=75",
+        "isOnDiscount":false,
+        "categoria":2
+      },
+      {
+        "id": 10,
+        "nombre": "Camiseta Real Madrid",
+        "descripcion": "Camiseta Fútbol Hombre",
+        "precio": 49,
+        "stock": 50,
+        "imagen": "https://resize.sprintercdn.com/f/512x512/products/0327819/maillot-domicile-real-madrid_0327819_02_4_1179262417.jpg?w=512&q=75",
+        "isOnDiscount": true,
+        "categoria": 2
+
+      },
+      {
+        "id": 11,
+        "nombre": "Ipso Combi 2",
+        "descripcion": "Pantalón Running Hombre",
+        "precio": 10,
+        "stock": 100,
+        "imagen": "https://resize.sprintercdn.com/f/512x512/products/0346756/ipso-combi-2_0346756_02_4_747900284.jpg?w=512&q=75",
+        "isOnDiscount": false,
+        "categoria": 3
+      },
+      {
+        "id": 12,
+        "nombre": "ASICS Lite Show",
+        "descripcion": "Pantalón Running Hombre",
+        "precio": 34,
+        "stock": 75,
+        "imagen": "https://resize.sprintercdn.com/f/512x512/products/0346005/asics-lite-show_0346005_02_4_3854344442.jpg?w=512&q=75",
+        "isOnDiscount": true,
+        "categoria": 3
+      },
+      {
+        "id": 13,
+        "nombre": "Pantalón Nike",
+        "descripcion": "Pantalón Chándal Hombre",
+        "precio": 34,
+        "stock": 120,
+        "imagen": "https://resize.sprintercdn.com/f/512x512/products/0357850/pantal-n-nike_0357850_02_4_2760502176.jpg?w=512&q=75",
+        "isOnDiscount": true,
+        "categoria": 3
+      },
+      {
+        "id": 14,
+        "nombre": "Pantalón Nike",
+        "descripcion": "Pantalón Chándal Hombre",
+        "precio": 34,
+        "stock": 200,
+        "imagen": "https://resize.sprintercdn.com/f/512x512/products/0357802/nike-cro-ptlon-l-running-camo_0357802_02_4_2813197682.jpg?w=512&q=75",
+        "isOnDiscount":false,
+        "categoria":3
+      },
+      {
+        "id": 15,
+        "nombre": "Pantalón Reebok",
+        "descripcion": "Pantalón Running Hombre",
+        "precio": 20,
+        "stock": 50,
+        "imagen": "https://resize.sprintercdn.com/f/512x512/products/0370240/reebok-cro-ptlon-l-run_0370240_02_4_2809823527.jpg?w=512&q=75",
+        "isOnDiscount": true,
+        "categoria": 3
+
+      }
+    ]
+  }

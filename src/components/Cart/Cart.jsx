@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import "./card.css"
 
-export const Card = () => {
+export const Cart = () => {
     const generarNumeroRando = () => {
         return Math.floor(Math.random() * 10) + 1;
     };
